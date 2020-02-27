@@ -1,0 +1,20 @@
+<h1>Create new recipe</h1>
+
+<form action="/recipes" method="POST">
+    <label for="name">Name:</label>
+    <br>
+    <input type="text" name="name" id="name">
+    <br>
+
+    <label for="ingredients">Ingredients:</label>
+    <br>
+    <textarea type="text" name="ingredients" id="ingredients"></textarea>
+    <br>
+
+    <label for="cook_time">Cook time:</label>
+    <br>
+    <input type="number" name="cook_time" id="cook_time">
+    <br>
+    <br>
+    <input type="submit" value="Create">
+</form>
