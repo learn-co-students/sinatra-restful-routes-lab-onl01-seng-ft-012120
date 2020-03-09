@@ -39,6 +39,7 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.13.0)
     mustermann (1.0.3)
+    nio4r (2.5.2)
     nokogiri (1.10.5)
       mini_portile2 (~> 2.4.0)
     pry (0.12.2)
@@ -47,6 +48,8 @@ GEM
     pry-nav (0.3.0)
       pry (>= 0.9.10, < 0.13.0)
     public_suffix (4.0.1)
+    puma (4.3.3)
+      nio4r (~> 2.0)
     rack (2.0.8)
     rack-protection (2.0.7)
       rack
@@ -109,6 +112,7 @@ DEPENDENCIES
   json
   pry
   pry-nav
+  puma
   rack-test
   rake
   require_all
@@ -120,4 +124,4 @@ DEPENDENCIES
   tux
 
 BUNDLED WITH
-   2.0.2
+   2.1.4
